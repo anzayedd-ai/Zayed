@@ -14,14 +14,14 @@ public class ExceptionPrac {
         try {
             int a = 10;
             int b = 0;
-            System.out.println(a / b); // divide by zero
+            System.out.println(a / b);
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic Exception occurred");
         }
 
         try {
             String str = null;
-            System.out.println(str.length()); // null access
+            System.out.println(str.length()); 
         } catch (NullPointerException e) {
             System.out.println("NullPointer Exception occurred");
         }
